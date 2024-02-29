@@ -1,0 +1,10 @@
+.main-container {
+  display: flex;
+  width: 130px;
+  height: 300px;
+  background: rgb(28,23,23);
+  background: linear-gradient(90deg, rgba(28,23,23,1) 27%, rgba(235,16,16,1) 100%);
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+}

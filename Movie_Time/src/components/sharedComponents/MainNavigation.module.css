@@ -1,0 +1,88 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  background: rgb(28, 23, 23);
+  background: linear-gradient(90deg, rgba(28, 23, 23, 1) 27%, rgba(235, 16, 16, 1) 100%);
+  justify-content: space-between;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.homeNav {
+  padding-top: 100px;
+  display: flex;
+  /* justify-content: flex-start; */
+  gap: 4rem;
+  text-align: center;
+}
+
+.homeNav h2 {
+  font-weight: bolder;
+  font-size: larger;
+  padding: 0.5rem 0;
+  margin-left: 2rem;
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.homeNav p {
+  color: rgb(240, 221, 221);
+  font-size: x-large;
+  font-family: fantasy;
+}
+
+.favouriteNav {
+  display: flex;
+  padding: 5rem 0;
+  margin-right: 2rem;
+}
+
+.favimg {
+  height: 50px;
+  width: 50px;
+}
+
+.favouriteNav p {
+  text-decoration: none;
+  color: rgb(240, 221, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.favouriteNav p:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.favouriteNavLink {
+  text-decoration: none;
+}
+
+.homeNav p a {
+  text-decoration: none;
+}
+
+.homeNav p:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.activeColor {
+  /* text-decoration: none; */
+  color: #de236b;
+}
+
+.notActiveColor {
+  color: rgb(240, 221, 221);
+}
